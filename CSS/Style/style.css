@@ -26,8 +26,22 @@ body{
 }
 
 .img{
-    width: 150px;
-    height: 40px;
+    margin-left: 350px;
+    margin-top: -60px;
+    width: 160px;
+    height: 50px;
+}
+
+.signiture{
+    margin-left: 350px;
+    margin-top: -60px;
+   
+    /* width: 160px;
+    height: 50px; */
+}
+
+.sign:hover{
+    transform: scale(1.05);
 }
 
 *{
@@ -41,6 +55,13 @@ body{
 
 ::before,::after{
     box-sizing: border-box;
+}
+
+
+.tea{
+    text-align: center;
+    font-size: 16px;
+    margin-top: -50px;
 }
 
 
@@ -408,8 +429,8 @@ h3.my-profession{
     width: 80px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 20px;
-    bottom: -40px;
+    right: 53px;
+    bottom: -37px;
 }
 
 
@@ -420,7 +441,7 @@ h3.my-profession{
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
+    left: 53px;
     top: -40px;
 }
 
@@ -459,8 +480,11 @@ h3.my-profession{
 
 
 .about .about-content .about-text p{
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    /* text-align: justify;   */
+    
+
     color: var(--text-black-700);
 }
 
@@ -767,6 +791,7 @@ h3.my-profession{
 
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
+    height: auto;
     display: block;
 }
 /* -------------------------------------------Portfolio Section Ends------------------------------------------- */
